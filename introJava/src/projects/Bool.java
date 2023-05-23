@@ -1,11 +1,11 @@
-package projects.java;
+package projects;
 
 public class Bool {
     public static void main(String[] args) {
         boolean fazendoSol = true;
         boolean fimDeSemana = true;
         //Boolean Table
-        
+
         // && (AND) true && true = true
         // || (OR) true || false = true
         //         false || false = false

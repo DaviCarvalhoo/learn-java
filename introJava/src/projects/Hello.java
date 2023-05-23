@@ -1,4 +1,4 @@
-package projects.java;
+package projects;
 public class Hello {
     public static void main(String[] args) throws Exception {
         // create a var in java
