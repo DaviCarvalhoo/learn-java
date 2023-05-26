@@ -1,20 +1,12 @@
 package packages.java;
 
-public class Dog {
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
-    private String estadoDeEspirito;
-
-    public Dog(){}
-
+public class Dog extends Animals {
     public Dog(String nome, String cor, int altura, double peso) {
-        this.nome = nome;
-        this.cor = cor;
-        this.altura = altura;
-        this.peso = peso;
+        super(nome, cor, altura, peso);
+        // TODO Auto-generated constructor stub
     }
+
+    static int numeroDeCachorros;
 
     public String getNome() {
         return nome;
@@ -48,10 +40,6 @@ public class Dog {
         this.peso = peso;
     }
 
-    public void latir() {
-        System.out.println("Au Au");
-    }
-
     public String bolinha() {
         return "Bolinha";
     }
@@ -71,6 +59,24 @@ public class Dog {
                 this.estadoDeEspirito = "Neutro";
         }
         return estadoDeEspirito;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog [nome=" + nome + "]";
+    }
+
+    @Override
+    public void soar() {
+        System.out.println("Au Au");
+    }
+
+    public static int getNumeroDeCachorros() {
+        return numeroDeCachorros;
+    }
+
+    public static void setNumeroDeCachorros(int numeroDeCachorros) {
+        Dog.numeroDeCachorros = numeroDeCachorros;
     }
 
 }
