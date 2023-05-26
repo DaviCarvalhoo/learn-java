@@ -1,4 +1,4 @@
-package packages.java;
+package packages.objects;
 
 public class Cat extends Animals {
     public Cat(String nome, String cor, int altura, double peso) {

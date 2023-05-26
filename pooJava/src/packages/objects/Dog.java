@@ -1,4 +1,4 @@
-package packages.java;
+package packages.objects;
 
 public class Dog extends Animals {
     public Dog(String nome, String cor, int altura, double peso) {

@@ -1,4 +1,4 @@
-package packages.java;
+package packages.objects;
 
 public class Bird extends Animals {
     public Bird(String nome, String cor, int altura, double peso) {

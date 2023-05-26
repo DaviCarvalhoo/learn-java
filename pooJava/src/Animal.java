@@ -1,6 +1,6 @@
-import packages.java.Dog;
-import packages.java.Bird;
-import packages.java.Cat;
+import packages.objects.Bird;
+import packages.objects.Cat;
+import packages.objects.Dog;
 public class Animal {
     public static void main(String[] args) throws Exception {
         Dog dog0 = new Dog("Rex","Branco",15,5.5);

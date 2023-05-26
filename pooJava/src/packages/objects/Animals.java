@@ -1,4 +1,4 @@
-package packages.java;
+package packages.objects;
 
 public class Animals {
     protected String nome;
