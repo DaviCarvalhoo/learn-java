@@ -1,15 +1,15 @@
-import packages.objects.Bird;
-import packages.objects.Cat;
-import packages.objects.Dog;
+// import packages.objects.Bird;
+// import packages.objects.Cat;
+// import packages.objects.Dog;
 public class Animal {
     public static void main(String[] args) throws Exception {
-        Dog dog0 = new Dog("Rex","Branco",15,5.5);
-        Cat cat0 = new Cat("Felix","Preto",15,4.5);
-        Bird bird0 = new Bird("Piu-Piu","amarelo",5,0.2);
-
-        bird0.soar();
-        dog0.soar();
-        cat0.soar();
+        // Dog dog0 = new Dog("Rex","Branco",15,5.5);
+        // Cat cat0 = new Cat("Felix","Preto",15,4.5);
+        // Bird bird0 = new Bird("Piu-Piu","amarelo",5,0.2);
+        System.out.println("Olá mundo");
+        // bird0.soar();
+        // dog0.soar();
+        // cat0.soar();
 
         // Dog dog = new Dog();
         // dog.setNome("Puppy");
